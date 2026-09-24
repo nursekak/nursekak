@@ -1,83 +1,88 @@
-<!--
-  GitHub Profile README for https://github.com/nursekak
-  Repo must be named exactly: nursekak/nursekak (public)
--->
-
 <div align="center">
-
-# Gleb Chernii
-
-**Backend · QA · Product-minded engineer**
-
-Building services people actually use — APIs, automations, and tools that ship.
-
-[![GitHub](https://img.shields.io/badge/GitHub-nursekak-181717?style=flat-square&logo=github)](https://github.com/nursekak)
-[![Email](https://img.shields.io/badge/Email-g.chernii08%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:g.chernii08@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Moscow%2C%20Russia-334155?style=flat-square)](https://github.com/nursekak)
-[![English](https://img.shields.io/badge/English-B1%2B-059669?style=flat-square)](https://github.com/nursekak)
-
+  <img src="./assets/banner.png" alt="Gleb Chernii — Backend · QA · Edge Systems" width="100%">
 </div>
 
----
-
-### About
-
-I ship end-to-end products: **Go / Python backends**, **React + TypeScript** UIs, Docker deploys, and practical QA for APIs.  
-I like owning the full path — schema → API → tests → release — and chasing bugs until they’re fixed, not just logged.
-
-Currently focused on **backend quality**, **automation**, and **fintech-grade reliability**.
-
----
-
-### Featured work
-
-| Project | What it is |
-|--------:|:-----------|
-| [**hh-assistant**](https://github.com/nursekak/hh-assistant) | LLM job-application pipeline: FastAPI, Playwright, semantic matching, Telegram + web dashboard |
-| [**CRM**](https://github.com/nursekak/CRM) | Production manufacturing CRM — used in a real company |
-| [**OrderTrack**](https://github.com/nursekak/OrderTrack) | Multi-tenant order platform · Go/TS · JWT/RBAC · Excel export |
-| [**GERMES_LK**](https://github.com/nursekak/GERMES_LK) | Employee cabinet: QR attendance, reports, scheduled backups |
-| [**DefectTrack**](https://github.com/nursekak/DefectTrack) | Construction defect tracker with statuses, assignees, attachments |
-| [**rpiskanC**](https://github.com/nursekak/rpiskanC) / [**RPISKAN**](https://github.com/nursekak/RPISKAN) | Raspberry Pi RF/video scanner — C/C++ + Python on the edge |
-
----
-
-### Stack
-
-```text
-Languages   Go · Python · TypeScript / JavaScript · SQL · C / C#
-Backend     FastAPI · REST · JWT · WebSockets · Docker · Redis
-Frontend    React · TypeScript · Vite
-Data        PostgreSQL · migrations · Excel / CSV exports
-QA          go test · pytest · Playwright · API regression · Git
-Edge        Raspberry Pi · OpenCV · SPI / GPIO
-```
-
----
-
-### GitHub pulse
+<br/>
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=nursekak&show_icons=true&theme=transparent&hide_border=true&title_color=0f172a&icon_color=334155&text_color=334155&bg_color=00000000" height="150" alt="stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nursekak&layout=compact&theme=transparent&hide_border=true&title_color=0f172a&text_color=334155&bg_color=00000000" height="150" alt="languages" />
-
+  <img src="./assets/stats.png" alt="28+ repos · Go+Python · production tools · English B1+" width="100%">
 </div>
 
----
-
-### Currently
-
-- Deepening **backend QA automation in Go**
-- Shipping and polishing tools that remove busywork
-- Open to strong product teams (fintech / platform / serious engineering)
-
----
+<br/>
 
 <div align="center">
+  <img src="./assets/about.png" alt="About" width="100%">
+</div>
 
-**Let’s build something that ships.**
+<br/>
 
-[Repositories](https://github.com/nursekak?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/gleb-chernii-a374bb3b3) · [Email](mailto:g.chernii08@gmail.com)
+<p align="center">
+  <a href="https://github.com/nursekak">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/gleb-chernii-a374bb3b3">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:g.chernii08@gmail.com">g.chernii08@gmail.com</a>
+  &nbsp;·&nbsp;
+  Moscow, Russia
+</p>
 
+<div align="center">
+  <img src="./assets/divider.png" alt="" width="100%">
+</div>
+
+## Featured locks
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/nursekak/hh-assistant">
+        <img src="./assets/card-hh.png" alt="HH Assistant" width="100%">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/nursekak/CRM">
+        <img src="./assets/card-crm.png" alt="CRM" width="100%">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/nursekak/OrderTrack">
+        <img src="./assets/card-orders.png" alt="OrderTrack" width="100%">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/nursekak/GERMES_LK">
+        <img src="./assets/card-germes.png" alt="GERMES LK" width="100%">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/nursekak/DefectTrack">
+        <img src="./assets/card-defect.png" alt="DefectTrack" width="100%">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/nursekak/rpiskanC">
+        <img src="./assets/card-edge.png" alt="RPISKAN + SOT" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="./assets/divider.png" alt="" width="100%">
+</div>
+
+<div align="center">
+  <img src="./assets/stack.png" alt="Stack: Go, Python, TypeScript, FastAPI, React, PostgreSQL, Docker, pytest, Playwright, Raspberry Pi" width="82%">
+</div>
+
+<br/>
+
+<p align="center"><em>Currently locking onto backend QA automation in Go — and teams that ship for real.</em></p>
+
+<div align="center">
+  <img src="./assets/footer.png" alt="Lock acquired. Let's build something that ships." width="100%">
 </div>
