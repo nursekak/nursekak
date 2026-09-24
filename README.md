@@ -12,7 +12,6 @@
 Building services people actually use — APIs, automations, and tools that ship.
 
 [![GitHub](https://img.shields.io/badge/GitHub-nursekak-181717?style=flat-square&logo=github)](https://github.com/nursekak)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gleb%20Chernii-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/gleb-chernii-a374bb3b3)
 [![Email](https://img.shields.io/badge/Email-g.chernii08%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:g.chernii08@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Moscow%2C%20Russia-334155?style=flat-square)](https://github.com/nursekak)
 [![English](https://img.shields.io/badge/English-B1%2B-059669?style=flat-square)](https://github.com/nursekak)
