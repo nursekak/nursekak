@@ -1,65 +1,35 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,2&height=160&section=header&text=Gleb%20Chernii&fontSize=52&fontAlignY=35&desc=Backend%20%C2%B7%20QA%20%C2%B7%20Go%20%C2%B7%20Python&descAlignY=58&descSize=16" alt="header" width="100%">
-</div>
+# Gleb Cherniy
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=79C0FF&center=true&vCenter=true&width=720&lines=I+ship+backends+people+actually+run;Go+%2B+Python+%2B+React;QA+that+chases+the+bug+until+it's+fixed" alt="typing" />
-</div>
+B.S. Software Engineering, RTU MIREA (expected 2027) · Moscow  
+[g.chernii08@gmail.com](mailto:g.chernii08@gmail.com)
 
-<div align="center">
+I build backends that companies actually run, and I measure computer-vision problems instead of wrapping another detector. About three years of that mix. Applying to MS programs.
 
-[![GitHub](https://img.shields.io/badge/GitHub-nursekak-181717?style=for-the-badge&logo=github)](https://github.com/nursekak)
-[![Email](https://img.shields.io/badge/Email-g.chernii08%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:g.chernii08@gmail.com)
-[![Moscow](https://img.shields.io/badge/Moscow-Russia-1F6FEB?style=for-the-badge)](https://github.com/nursekak)
-[![Profile views](https://komarev.com/ghpvc/?username=nursekak&style=for-the-badge&color=1F6FEB)](https://github.com/nursekak)
+The production side is CRM, orders, attendance — schema, API, auth, UI, Docker, then someone uses it at work. The CV side is class confusion vs model scale, a C++ MOSSE lock on a detector box, and Raspberry Pi when the path has to leave the laptop.
 
-</div>
+## Research / systems
 
----
+**[finegrained-yolo-scale](https://github.com/nursekak/finegrained-yolo-scale)** — at which YOLO scale do visually similar categories stop being confused?
 
-### About
+mAP is not the claim. Primary metric is pairwise confusion on a held-out split. Sources are open-licensed only; the split is *inside each source*, so one photographer does not leak into test. After the box exists, a C++ MOSSE tracker has to lock, go Lost on a blank frame, and reacquire — a check that the box is usable in time, not only on a still.
 
-Backend / QA engineer. I own the chain **schema → API → tests → release**.  
-Production tools in companies (CRM, orders, attendance) + personal automations (HH Assistant) + edge C/C++ on Raspberry Pi.
+The n→s→m sweep is not finished. Empty cells in that table are empty on purpose.
 
-**Now:** backend QA automation in **Go**, APIs, SQL, Git — looking for teams that ship.
+Coursework, not a paper: [PharmKursovaya](https://github.com/nursekak/PharmKursovaya) — small DNN for glaucoma progression (binary classification, accuracy + AUC).
 
----
+On a Raspberry Pi I wrote C for SPI / RSSI and an OpenCV preview path ([rpiskanC](https://github.com/nursekak/rpiskanC)). Radio + video on a weak ARM board, no cloud GPU in that loop.
 
-### Stack
+## Production
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,ts,js,react,postgres,docker,redis,linux,git,github,githubactions,cpp,cs,selenium&perline=8" alt="skills" />
-</div>
+People click these at work.
 
----
+- **[CRM](https://github.com/nursekak/CRM)** — 3D-print shop: printers, consumables, product / part / model tree, warehouse, shipments. In use at the company.
+- **[OrderTrack](https://github.com/nursekak/OrderTrack)** — several client databases on one deploy, JWT / RBAC, React / TypeScript.
+- **[GERMES_LK](https://github.com/nursekak/GERMES_LK)** — QR check-in, report approval, scheduled backups.
+- **[DefectTrack](https://github.com/nursekak/DefectTrack)** — construction defects: statuses, assignees, attachments.
 
-### Featured
+**[hh-assistant](https://github.com/nursekak/hh-assistant)** is a full product, not a script: embeddings for matching, cover-letter generation, Playwright, FastAPI dashboard, Telegram. LLM pipeline with a real UI, not a notebook.
 
-| Repo | What |
-|------|------|
-| [**hh-assistant**](https://github.com/nursekak/hh-assistant) | LLM job-application pipeline — FastAPI, Playwright, embeddings, Telegram + dashboard |
-| [**CRM**](https://github.com/nursekak/CRM) | Manufacturing CRM **used in a real company** |
-| [**OrderTrack**](https://github.com/nursekak/OrderTrack) | Multi-tenant orders, JWT/RBAC, React/TS |
-| [**GERMES_LK**](https://github.com/nursekak/GERMES_LK) | QR attendance, reports, scheduled backups |
-| [**DefectTrack**](https://github.com/nursekak/DefectTrack) | Construction defects: statuses, assignees, attachments |
-| [**rpiskanC**](https://github.com/nursekak/rpiskanC) | Raspberry Pi RF scanner — C + Python on the edge |
+## Stack
 
----
-
-### GitHub
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nursekak&show_icons=true&theme=tokyonight&hide_border=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nursekak&layout=compact&theme=tokyonight&hide_border=true" alt="languages" />
-</div>
-
-<div align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=nursekak&theme=tokyonight&hide_border=true" alt="streak" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,2&height=100&section=footer" alt="footer" width="100%">
-</div>
+Go, Python, C/C++ · PostgreSQL · Docker · React / TypeScript · OpenCV, YOLO, MOSSE · Raspberry Pi
